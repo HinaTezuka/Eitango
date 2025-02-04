@@ -1,8 +1,7 @@
-# Eitango学習自動化プロジェクト
-### 概要
-趣味として語学学習（特に英語）を日々行う中で、知らない単語には日々出会います。
-私自身、初見だった単語や熟語などは、その都度単語帳に追加してあとで見直せるようにしていますが、これがなかなか大変な作業です。
-そこで、知らなかった単語をターミナルで入力すると自動でdesktop上にCSV形式の単語帳を作成してくれたら、すごく楽になるのではないかと考え、作成しました。
+# Automated Tool for English Words and Idioms Memorization
+### Overview
+As part of my daily hobby of learning languages, especially English, I constantly come across new words. Whenever I encounter unfamiliar words or phrases, I add them to a vocabulary list so that I can review them later. However, this process can be quite tedious.
 
-また、LINE Notify APIを使用し、毎日決まった時間にLINEアカウントに単語帳の中から２つ、問題を出してくれる機能を実装しました。
-意味がわからなかったらweblio（オンライン英和辞典サイト）の所定の単語のぺージに飛べるようにURLもLINEに送られてくるようになっています。
+To make things easier, I developed a system that automatically creates a CSV-format vocabulary list on my desktop whenever I input an unknown word into the terminal.
+
+Additionally, I implemented a feature using the LINE Notify API that sends two quiz questions from the vocabulary list to my LINE account at a set time every day. If I don’t know the meaning of a word, the message also includes a URL linking to the relevant page on Weblio, an online English-Japanese dictionary.
